@@ -1,0 +1,12 @@
+<svg width="1000" height="720" viewBox="0 0 1000 720" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Triaxial animation placeholder</title>
+  <desc id="desc">Media thumbnail placeholder for a triaxial compression animation.</desc>
+  <rect width="1000" height="720" rx="28" fill="#0A0F15"/>
+  <rect x="380" y="120" width="240" height="420" rx="92" stroke="#5BE6FF" stroke-width="4" stroke-opacity=".58"/>
+  <g fill="#EEF2F3" opacity=".9">
+    <circle cx="446" cy="196" r="20"/><circle cx="516" cy="186" r="16"/><circle cx="554" cy="242" r="22"/><circle cx="438" cy="276" r="18"/><circle cx="504" cy="318" r="21"/><circle cx="562" cy="382" r="17"/><circle cx="456" cy="438" r="22"/><circle cx="522" cy="486" r="18"/>
+  </g>
+  <path d="M500 58V116M500 548V640" stroke="#DBB362" stroke-width="9" stroke-linecap="round"/>
+  <path d="M468 92L500 58L532 92M468 606L500 640L532 606" stroke="#DBB362" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="72" y="648" fill="#97A5AB" font-family="Inter, Arial, sans-serif" font-size="26">Replace with MP4/WebM triaxial sequence</text>
+</svg>

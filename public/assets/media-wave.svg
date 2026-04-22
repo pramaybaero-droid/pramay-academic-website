@@ -1,0 +1,17 @@
+<svg width="1000" height="720" viewBox="0 0 1000 720" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Wave animation placeholder</title>
+  <desc id="desc">Media thumbnail placeholder for wave propagation visualizations.</desc>
+  <rect width="1000" height="720" rx="28" fill="#0A0F15"/>
+  <g stroke="#5BE6FF" stroke-width="3">
+    <circle cx="250" cy="360" r="70" opacity=".85"/>
+    <circle cx="250" cy="360" r="150" opacity=".5"/>
+    <circle cx="250" cy="360" r="240" opacity=".25"/>
+    <circle cx="250" cy="360" r="330" opacity=".12"/>
+  </g>
+  <path d="M170 360H870" stroke="#DBB362" stroke-width="5" stroke-linecap="round" stroke-dasharray="4 22"/>
+  <g fill="#EEF2F3" opacity=".86">
+    <circle cx="444" cy="238" r="15"/><circle cx="554" cy="300" r="12"/><circle cx="672" cy="246" r="17"/><circle cx="804" cy="336" r="13"/>
+    <circle cx="420" cy="462" r="16"/><circle cx="566" cy="424" r="13"/><circle cx="708" cy="484" r="18"/><circle cx="850" cy="450" r="12"/>
+  </g>
+  <text x="72" y="648" fill="#97A5AB" font-family="Inter, Arial, sans-serif" font-size="26">Replace with wave propagation video</text>
+</svg>

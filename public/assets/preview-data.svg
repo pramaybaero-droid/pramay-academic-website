@@ -1,0 +1,16 @@
+<svg width="960" height="600" viewBox="0 0 960 600" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Data pipeline preview</title>
+  <desc id="desc">Preview placeholder for data analysis pipelines.</desc>
+  <rect width="960" height="600" rx="24" fill="#0A0F15"/>
+  <g fill="#121A23" stroke="#40505A">
+    <rect x="92" y="140" width="180" height="110" rx="12"/>
+    <rect x="390" y="110" width="180" height="110" rx="12"/>
+    <rect x="688" y="140" width="180" height="110" rx="12"/>
+    <rect x="240" y="360" width="180" height="110" rx="12"/>
+    <rect x="540" y="360" width="180" height="110" rx="12"/>
+  </g>
+  <path d="M272 196H390M570 166H688M182 250L330 360M778 250L630 360M420 414H540" stroke="#5BE6FF" stroke-width="4" stroke-linecap="round"/>
+  <g fill="#DBB362">
+    <circle cx="272" cy="196" r="7"/><circle cx="390" cy="196" r="7"/><circle cx="570" cy="166" r="7"/><circle cx="688" cy="166" r="7"/><circle cx="420" cy="414" r="7"/><circle cx="540" cy="414" r="7"/>
+  </g>
+</svg>

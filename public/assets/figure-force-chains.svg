@@ -1,0 +1,23 @@
+<svg width="960" height="640" viewBox="0 0 960 640" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Force-chain placeholder</title>
+  <desc id="desc">A stylized network of granular contacts and force chains.</desc>
+  <rect width="960" height="640" rx="24" fill="#0A0F15"/>
+  <g opacity=".18" stroke="#5BE6FF" stroke-width="1">
+    <path d="M80 120C220 190 300 70 440 150C580 230 670 116 850 182"/>
+    <path d="M110 440C250 360 376 516 506 410C612 324 740 410 858 330"/>
+  </g>
+  <g stroke="#DBB362" stroke-linecap="round">
+    <path d="M152 168L238 216L320 162L406 244L512 214L604 304L706 268L806 348" stroke-width="8" opacity=".82"/>
+    <path d="M176 406L278 344L388 386L496 326L604 378L734 320" stroke-width="5" opacity=".62"/>
+  </g>
+  <g stroke="#5BE6FF" stroke-opacity=".42" stroke-width="2">
+    <path d="M238 216L278 344M320 162L388 386M406 244L496 326M512 214L604 378M604 304L734 320"/>
+  </g>
+  <g fill="#EEF2F3">
+    <circle cx="152" cy="168" r="20"/><circle cx="238" cy="216" r="15"/><circle cx="320" cy="162" r="19"/><circle cx="406" cy="244" r="16"/>
+    <circle cx="512" cy="214" r="18"/><circle cx="604" cy="304" r="15"/><circle cx="706" cy="268" r="20"/><circle cx="806" cy="348" r="16"/>
+    <circle cx="176" cy="406" r="18"/><circle cx="278" cy="344" r="15"/><circle cx="388" cy="386" r="18"/><circle cx="496" cy="326" r="15"/>
+    <circle cx="604" cy="378" r="17"/><circle cx="734" cy="320" r="15"/>
+  </g>
+  <text x="54" y="590" fill="#97A5AB" font-family="Inter, Arial, sans-serif" font-size="24">Representative output placeholder: contact network / force chains</text>
+</svg>

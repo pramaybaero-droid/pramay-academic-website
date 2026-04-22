@@ -1,0 +1,16 @@
+<svg width="960" height="600" viewBox="0 0 960 600" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Constitutive modelling preview</title>
+  <desc id="desc">Preview placeholder for constitutive modelling code.</desc>
+  <rect width="960" height="600" rx="24" fill="#0A0F15"/>
+  <rect x="84" y="88" width="338" height="390" rx="14" fill="#111922" stroke="#40505A"/>
+  <rect x="478" y="88" width="398" height="390" rx="14" fill="#111922" stroke="#40505A"/>
+  <g stroke="#40505A" stroke-width="1">
+    <path d="M132 426H380M132 340H380M132 254H380M132 168H380"/>
+    <path d="M532 426H820M532 340H820M532 254H820M532 168H820"/>
+  </g>
+  <path d="M132 420C184 350 238 342 284 272C330 204 346 180 380 156" stroke="#5BE6FF" stroke-width="4" stroke-linecap="round"/>
+  <path d="M532 420C600 376 624 286 680 252C734 220 778 190 820 136" stroke="#DBB362" stroke-width="4" stroke-linecap="round"/>
+  <g fill="#5BE6FF" opacity=".42">
+    <rect x="130" y="512" width="120" height="12" rx="6"/><rect x="270" y="512" width="220" height="12" rx="6"/><rect x="514" y="512" width="182" height="12" rx="6"/>
+  </g>
+</svg>

@@ -1,0 +1,11 @@
+<svg width="960" height="600" viewBox="0 0 960 600" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Contact tools preview</title>
+  <desc id="desc">Preview placeholder for contact model comparison tools.</desc>
+  <rect width="960" height="600" rx="24" fill="#0A0F15"/>
+  <circle cx="360" cy="300" r="118" fill="#121A23" stroke="#EEF2F3" stroke-opacity=".54" stroke-width="3"/>
+  <circle cx="536" cy="300" r="118" fill="#121A23" stroke="#EEF2F3" stroke-opacity=".54" stroke-width="3"/>
+  <path d="M448 184V416" stroke="#5BE6FF" stroke-width="5"/>
+  <path d="M388 300H508" stroke="#DBB362" stroke-width="7" stroke-linecap="round"/>
+  <path d="M640 444C686 402 708 356 730 300C752 244 784 206 832 170" stroke="#5BE6FF" stroke-width="4" stroke-linecap="round"/>
+  <path d="M640 468C704 444 764 406 842 356" stroke="#DBB362" stroke-width="3" stroke-linecap="round" stroke-dasharray="8 12"/>
+</svg>

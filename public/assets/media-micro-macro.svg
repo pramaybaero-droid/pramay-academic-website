@@ -1,0 +1,16 @@
+<svg width="1000" height="720" viewBox="0 0 1000 720" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Micro-macro response placeholder</title>
+  <desc id="desc">Media thumbnail placeholder for paired microstructure and stress-response figures.</desc>
+  <rect width="1000" height="720" rx="28" fill="#0A0F15"/>
+  <rect x="80" y="92" width="392" height="450" rx="18" fill="#111922" stroke="#40505A"/>
+  <rect x="528" y="92" width="392" height="450" rx="18" fill="#111922" stroke="#40505A"/>
+  <g fill="#EEF2F3" opacity=".9">
+    <circle cx="158" cy="190" r="21"/><circle cx="246" cy="244" r="16"/><circle cx="340" cy="188" r="23"/><circle cx="392" cy="302" r="18"/><circle cx="178" cy="392" r="20"/><circle cx="298" cy="420" r="22"/><circle cx="404" cy="438" r="17"/>
+  </g>
+  <g stroke="#40505A" stroke-width="1">
+    <path d="M590 476H862M590 396H862M590 316H862M590 236H862M590 156H862"/>
+  </g>
+  <path d="M590 468C644 382 696 360 732 302C774 236 806 212 862 170" stroke="#5BE6FF" stroke-width="4" stroke-linecap="round"/>
+  <path d="M590 492C662 450 726 438 794 380C830 350 846 310 862 272" stroke="#DBB362" stroke-width="3" stroke-linecap="round" stroke-dasharray="8 12"/>
+  <text x="80" y="648" fill="#97A5AB" font-family="Inter, Arial, sans-serif" font-size="26">Replace with paired microstructure and continuum response figure</text>
+</svg>

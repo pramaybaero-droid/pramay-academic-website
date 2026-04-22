@@ -1,0 +1,16 @@
+<svg width="1000" height="720" viewBox="0 0 1000 720" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Force-chain media placeholder</title>
+  <desc id="desc">Media thumbnail placeholder for force-chain visualizations.</desc>
+  <rect width="1000" height="720" rx="28" fill="#0A0F15"/>
+  <g stroke="#DBB362" stroke-linecap="round">
+    <path d="M128 180L238 254L352 206L478 310L602 238L744 340L864 286" stroke-width="10"/>
+    <path d="M150 508L292 420L420 468L552 390L694 456L846 404" stroke-width="6" opacity=".68"/>
+  </g>
+  <g stroke="#5BE6FF" stroke-opacity=".34" stroke-width="2">
+    <path d="M238 254L292 420M352 206L420 468M478 310L552 390M602 238L694 456M744 340L846 404"/>
+  </g>
+  <g fill="#EEF2F3">
+    <circle cx="128" cy="180" r="24"/><circle cx="238" cy="254" r="18"/><circle cx="352" cy="206" r="23"/><circle cx="478" cy="310" r="19"/><circle cx="602" cy="238" r="22"/><circle cx="744" cy="340" r="18"/><circle cx="864" cy="286" r="24"/>
+    <circle cx="150" cy="508" r="22"/><circle cx="292" cy="420" r="17"/><circle cx="420" cy="468" r="21"/><circle cx="552" cy="390" r="18"/><circle cx="694" cy="456" r="20"/><circle cx="846" cy="404" r="18"/>
+  </g>
+</svg>

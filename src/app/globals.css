@@ -1,0 +1,180 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-background: 7 10 14;
+  --color-foreground: 238 242 243;
+  --color-muted: 151 165 171;
+  --color-panel: 18 23 30;
+  --color-line: 64 77 86;
+  --color-cyan: 91 230 255;
+  --color-blue: 80 141 255;
+  --color-gold: 219 179 98;
+  --color-sand: 229 211 171;
+  color-scheme: dark;
+}
+
+.light {
+  --color-background: 247 248 245;
+  --color-foreground: 22 27 31;
+  --color-muted: 87 99 105;
+  --color-panel: 255 255 251;
+  --color-line: 194 205 209;
+  --color-cyan: 0 132 166;
+  --color-blue: 28 93 184;
+  --color-gold: 150 103 35;
+  --color-sand: 111 87 48;
+  color-scheme: light;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  min-height: 100vh;
+  overflow-x: hidden;
+  background:
+    radial-gradient(circle at 20% 0%, rgb(var(--color-cyan) / 0.08), transparent 28rem),
+    radial-gradient(circle at 90% 10%, rgb(var(--color-gold) / 0.08), transparent 24rem),
+    rgb(var(--color-background));
+  color: rgb(var(--color-foreground));
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+body::selection {
+  background: rgb(var(--color-cyan) / 0.26);
+  color: rgb(var(--color-foreground));
+}
+
+a {
+  text-decoration: none;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+@layer components {
+  .container-shell {
+    @apply mx-auto w-full max-w-7xl px-5 sm:px-6 lg:px-8;
+  }
+
+  .surface-panel {
+    @apply border border-line/40 bg-panel/70 shadow-soft-glow backdrop-blur-xl;
+  }
+
+  .instrument-card {
+    @apply surface-panel rounded-[8px] transition duration-300 ease-instrument hover:border-cyan/50 hover:bg-panel/90;
+  }
+
+  .eyebrow {
+    @apply text-xs font-semibold uppercase tracking-[0.24em] text-cyan;
+  }
+
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .focus-ring {
+    @apply outline-none ring-0 focus-visible:ring-2 focus-visible:ring-cyan focus-visible:ring-offset-2 focus-visible:ring-offset-background;
+  }
+
+  .research-gradient-border {
+    position: relative;
+  }
+
+  .research-gradient-border::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    padding: 1px;
+    background: linear-gradient(135deg, rgb(var(--color-cyan) / 0.52), transparent 38%, rgb(var(--color-gold) / 0.34));
+    mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+    mask-composite: exclude;
+    pointer-events: none;
+  }
+}
+
+.grain-noise {
+  pointer-events: none;
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  opacity: 0.14;
+  mix-blend-mode: overlay;
+  background-image:
+    linear-gradient(rgb(255 255 255 / 0.035) 1px, transparent 1px),
+    linear-gradient(90deg, rgb(255 255 255 / 0.025) 1px, transparent 1px);
+  background-size: 42px 42px;
+}
+
+.light .grain-noise {
+  opacity: 0.2;
+  mix-blend-mode: multiply;
+}
+
+.particle-mask {
+  mask-image: linear-gradient(to bottom, #000 0%, #000 72%, transparent 100%);
+}
+
+.hero-mesh {
+  background-image:
+    radial-gradient(circle at 12% 18%, rgb(74 222 255 / 0.13), transparent 30%),
+    radial-gradient(circle at 82% 10%, rgb(214 175 96 / 0.1), transparent 28%),
+    linear-gradient(135deg, rgb(6 10 15), rgb(14 18 24) 45%, rgb(9 14 20));
+}
+
+.light .hero-mesh {
+  background-image:
+    radial-gradient(circle at 12% 18%, rgb(0 110 150 / 0.1), transparent 30%),
+    radial-gradient(circle at 82% 10%, rgb(180 126 35 / 0.12), transparent 28%),
+    linear-gradient(135deg, rgb(247 248 245), rgb(239 243 244) 50%, rgb(250 247 240));
+}
+
+.print-only {
+  display: none;
+}
+
+@media print {
+  body {
+    background: white !important;
+    color: #111 !important;
+  }
+
+  .no-print {
+    display: none !important;
+  }
+
+  .print-only {
+    display: block;
+  }
+
+  .surface-panel,
+  .instrument-card {
+    border-color: #d0d0d0 !important;
+    box-shadow: none !important;
+    background: white !important;
+  }
+}

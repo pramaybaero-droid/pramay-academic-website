@@ -1,0 +1,14 @@
+<svg width="960" height="600" viewBox="0 0 960 600" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">DEM workflow preview</title>
+  <desc id="desc">Preview placeholder for DEM workflow tools.</desc>
+  <rect width="960" height="600" rx="24" fill="#0A0F15"/>
+  <g stroke="#40505A" stroke-width="1">
+    <path d="M140 120H820M140 220H820M140 320H820M140 420H820"/>
+    <path d="M220 80V500M380 80V500M540 80V500M700 80V500"/>
+  </g>
+  <g fill="#EEF2F3" opacity=".86">
+    <circle cx="202" cy="194" r="24"/><circle cx="296" cy="148" r="18"/><circle cx="372" cy="214" r="22"/><circle cx="496" cy="174" r="26"/><circle cx="608" cy="234" r="19"/><circle cx="736" cy="184" r="24"/>
+    <circle cx="244" cy="344" r="20"/><circle cx="354" cy="392" r="26"/><circle cx="486" cy="342" r="18"/><circle cx="620" cy="390" r="25"/><circle cx="742" cy="330" r="21"/>
+  </g>
+  <path d="M202 194L372 214L496 174L608 234L736 184M244 344L354 392L486 342L620 390L742 330" stroke="#DBB362" stroke-opacity=".72" stroke-width="5"/>
+</svg>

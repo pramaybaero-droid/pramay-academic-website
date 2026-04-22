@@ -1,0 +1,28 @@
+<svg width="720" height="900" viewBox="0 0 720 900" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Portrait placeholder</title>
+  <desc id="desc">Abstract portrait placeholder with granular mechanics motifs.</desc>
+  <rect width="720" height="900" rx="28" fill="#0B1118"/>
+  <path d="M0 620C120 548 224 542 346 604C488 676 596 644 720 548V900H0V620Z" fill="#121A23"/>
+  <circle cx="360" cy="318" r="128" fill="#1A2430" stroke="#5BE6FF" stroke-opacity=".35" stroke-width="2"/>
+  <path d="M218 725C252 622 301 572 360 572C419 572 468 622 502 725" stroke="#DBB362" stroke-opacity=".6" stroke-width="7" stroke-linecap="round"/>
+  <path d="M238 514C292 472 428 472 482 514" stroke="#EEF2F3" stroke-opacity=".18" stroke-width="6" stroke-linecap="round"/>
+  <g stroke="#5BE6FF" stroke-opacity=".32" stroke-width="1.5">
+    <path d="M112 138L184 184L246 142L318 190L388 136L468 196L574 140"/>
+    <path d="M122 772L218 734L322 758L440 706L596 734"/>
+  </g>
+  <g fill="#EED3AB" opacity=".82">
+    <circle cx="112" cy="138" r="5"/>
+    <circle cx="184" cy="184" r="4"/>
+    <circle cx="246" cy="142" r="6"/>
+    <circle cx="318" cy="190" r="4"/>
+    <circle cx="388" cy="136" r="6"/>
+    <circle cx="468" cy="196" r="5"/>
+    <circle cx="574" cy="140" r="4"/>
+    <circle cx="122" cy="772" r="5"/>
+    <circle cx="218" cy="734" r="4"/>
+    <circle cx="322" cy="758" r="5"/>
+    <circle cx="440" cy="706" r="4"/>
+    <circle cx="596" cy="734" r="5"/>
+  </g>
+  <text x="360" y="835" text-anchor="middle" fill="#EEF2F3" opacity=".64" font-family="Inter, Arial, sans-serif" font-size="24">Replace with headshot</text>
+</svg>

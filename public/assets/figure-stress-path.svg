@@ -1,0 +1,16 @@
+<svg width="960" height="640" viewBox="0 0 960 640" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Stress-path placeholder</title>
+  <desc id="desc">A stylized stress path plot placeholder.</desc>
+  <rect width="960" height="640" rx="24" fill="#0A0F15"/>
+  <g stroke="#40505A" stroke-width="1">
+    <path d="M140 80V520H850"/>
+    <path d="M140 430H850M140 340H850M140 250H850M140 160H850"/>
+    <path d="M260 80V520M380 80V520M500 80V520M620 80V520M740 80V520"/>
+  </g>
+  <path d="M160 492C210 428 252 394 314 382C394 366 402 280 476 252C542 226 590 270 650 210C706 154 754 150 834 118" stroke="#5BE6FF" stroke-width="5" stroke-linecap="round"/>
+  <path d="M160 492C240 474 324 484 402 430C484 372 570 390 662 320C724 274 778 232 834 118" stroke="#DBB362" stroke-width="3" stroke-linecap="round" stroke-dasharray="10 14"/>
+  <g fill="#EEF2F3">
+    <circle cx="160" cy="492" r="8"/><circle cx="314" cy="382" r="8"/><circle cx="476" cy="252" r="8"/><circle cx="650" cy="210" r="8"/><circle cx="834" cy="118" r="8"/>
+  </g>
+  <text x="64" y="594" fill="#97A5AB" font-family="Inter, Arial, sans-serif" font-size="24">Representative output placeholder: stress path / model calibration</text>
+</svg>
