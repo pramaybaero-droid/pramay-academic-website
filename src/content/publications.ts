@@ -73,61 +73,49 @@ export const publications: Publication[] = [
   doi={10.1051/epjconf/202534009013}
 }`
   },
-  {
-    id: "xor-based-ciphered-image-2018",
-    title: "Security analysis of XOR based ciphered image",
-    authors: "P. Sharma, R. Shrivastava, V. K. Sarthi, P. Bhatpahri",
-    venue: "Asian Journal of Computer Science and Technology, 7(1), 55-60",
-    year: 2018,
-    type: "Journal",
-    topics: ["cryptography", "image encryption"],
-    bibtex: `@article{sharma2018xor,
-  title={Security analysis of XOR based ciphered image},
+{
+  id: "xor-based-ciphered-image-2018",
+  title: "Security Analysis of XOR Based Ciphered Image",
+  authors: "P. Sharma, R. Shrivastava, V. K. Sarthi, P. Bhatpahri",
+  venue: "Asian Journal of Computer Science and Technology, 7(1), 55-60",
+  year: 2018,
+  type: "Journal",
+  topics: ["cryptography", "image encryption"],
+  doi: "10.51983/ajcst-2018.7.1.1829",
+  pdf: "/papers/ajcst-2018-xor-security-analysis.pdf",
+  bibtex: `@article{sharma2018xor,
+  title={Security Analysis of XOR Based Ciphered Image},
   author={Sharma, P. and Shrivastava, R. and Sarthi, V. K. and Bhatpahri, P.},
   journal={Asian Journal of Computer Science and Technology},
   volume={7},
   number={1},
   pages={55--60},
-  year={2018}
+  year={2018},
+  doi={10.51983/ajcst-2018.7.1.1829}
 }`
-  },
-  {
-    id: "hindi-plaintext-affine-2018",
-    title: "Encryption of Hindi Plaintext Using Modified Affine Cipher Technique",
-    authors: "P. Sharma, P. Bhatpahri, R. Shrivastava",
-    venue: "International Journal of Education and Information Technology, 3(4), 107-111",
-    year: 2018,
-    type: "Journal",
-    topics: ["cryptography", "text encryption"],
-    bibtex: `@article{sharma2018hindi,
-  title={Encryption of Hindi Plaintext Using Modified Affine Cipher Technique},
-  author={Sharma, P. and Bhatpahri, P. and Shrivastava, R.},
-  journal={International Journal of Education and Information Technology},
-  volume={3},
-  number={4},
-  pages={107--111},
-  year={2018}
-}`
-  },
-  {
-    id: "multilevel-scrambling-affine-2018",
-    title:
-      "Visual Encryption Using Multilevel Scrambling Followed by Affine Encryption Technique",
-    authors: "P. Sharma, P. Bhatpahri, R. K. Patnaik, R. Shrivastava",
-    venue: "Asian Journal of Computer Science and Technology, 7(1), 40-45",
-    year: 2018,
-    type: "Journal",
-    topics: ["cryptography", "image encryption"],
-    bibtex: `@article{sharma2018multilevel,
+},
+{
+  id: "multilevel-scrambling-affine-2018",
+  title:
+    "Visual Encryption Using Multilevel Scrambling Followed by Affine Encryption Technique",
+  authors: "Piyali Sharma, Pramay Bhatpahri, Ravi Kiran Patnaik, Ravi Shrivastava",
+  venue: "Asian Journal of Computer Science and Technology, 7(1), 40-45",
+  year: 2018,
+  type: "Journal",
+  topics: ["cryptography", "image encryption"],
+  doi: "10.51983/ajcst-2018.7.1.1832",
+  pdf: "/papers/ajcst-2018-multilevel-scrambling-affine.pdf",
+  bibtex: `@article{sharma2018multilevel,
   title={Visual Encryption Using Multilevel Scrambling Followed by Affine Encryption Technique},
-  author={Sharma, P. and Bhatpahri, P. and Patnaik, R. K. and Shrivastava, R.},
+  author={Sharma, Piyali and Bhatpahri, Pramay and Patnaik, Ravi Kiran and Shrivastava, Ravi},
   journal={Asian Journal of Computer Science and Technology},
   volume={7},
   number={1},
   pages={40--45},
-  year={2018}
+  year={2018},
+  doi={10.51983/ajcst-2018.7.1.1832}
 }`
-  }
+}
 ];
 
 export const publicationTopics = [
