@@ -12,13 +12,13 @@ import {
 export const siteUrl = "https://pramay.example";
 
 export const profile = {
-  name: "Pramay [Surname placeholder]",
+  name: "B. Pramay",
   shortName: "Pramay",
   role: "PhD Scholar",
   department: "Department of Aerospace Engineering",
   affiliation: "Indian Institute of Science (IISc), Bengaluru",
   location: "Bengaluru, India",
-  email: "your.email@iisc.ac.in",
+  email: "pramayb@iisc.ac.in",
   portrait: "/assets/portrait-placeholder.svg",
   cvPath: "/cv/pramay-cv-placeholder.pdf",
   identity:
@@ -43,22 +43,22 @@ export const profile = {
   socials: [
     {
       label: "Google Scholar",
-      href: "https://scholar.google.com/citations?user=replace",
+      href: "https://scholar.google.com/citations?user=w8A1gMUAAAAJ&hl=en&oi=sra",
       placeholder: true
     },
     {
       label: "ORCID",
-      href: "https://orcid.org/0000-0000-0000-0000",
+      href: "https://orcid.org/0000-0001-8151-9629",
       placeholder: true
     },
     {
       label: "LinkedIn",
-      href: "https://www.linkedin.com/in/replace",
+      href: "www.linkedin.com/in/pramay-b-15v11",
       placeholder: true
     },
     {
       label: "GitHub",
-      href: "https://github.com/replace",
+      href: "https://github.com/pramaybaero-droid",
       placeholder: true
     },
     {
