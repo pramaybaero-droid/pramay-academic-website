@@ -11,13 +11,13 @@ export const cv = {
     {
       period: "Completed",
       degree: "M.Tech in Machine Design",
-      institution: "Institution placeholder",
+      institution: "National Institute of Technology, Raipur",
       detail: "Advanced mechanics, design, numerical methods, and simulation."
     },
     {
       period: "Completed",
-      degree: "B.Tech in Mechanical Engineering",
-      institution: "Institution placeholder",
+      degree: "B.E in Mechanical Engineering",
+      institution: "Chhattisgarh Swami Vivekanand Technical University, Bhilai",
       detail: "Foundations in mechanics, thermodynamics, manufacturing, and design."
     }
   ],
