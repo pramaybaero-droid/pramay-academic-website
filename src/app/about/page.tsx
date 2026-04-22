@@ -12,12 +12,12 @@ import { profile } from "@/content/profile";
 export const metadata: Metadata = {
   title: "About",
   description:
-    "Academic biography, research motivation, education, skills, and tools for Pramay [Surname placeholder]."
+    "Academic biography, research motivation, education, skills, and tools for B. Pramay."
 };
 
 const timeline = [
   {
-    label: "B.Tech",
+    label: "B.E.",
     title: "Mechanical Engineering",
     description:
       "Built the foundation in mechanics, design, thermodynamics, materials, manufacturing, and computational thinking."
