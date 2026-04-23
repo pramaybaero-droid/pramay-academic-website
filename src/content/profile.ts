@@ -53,7 +53,7 @@ export const profile = {
     },
     {
       label: "LinkedIn",
-      href: "www.linkedin.com/in/pramay-b-15v11",
+      href: "www.linkedin.com/in/pramay-b-15v11/",
       placeholder: true
     },
     {
